@@ -1,0 +1,17 @@
+﻿<Window x:Class="IPLOG.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IPLOG"
+        mc:Ignorable="d"
+        Title="IPLOG assembly parser" Height="450" Width="450">
+    <Grid Background="#FFD0CCCC">
+        
+        <Button Content="Parse" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Click="LoadButton_Click" Margin="315,10,0,0" Height="29"/>
+        <TreeView Name="DeviceTreeView" HorizontalAlignment="Left" Height="314" VerticalAlignment="Top" Width="300" Margin="10,10,0,0"/>      
+        <Label Name="Inputs" Content="Inputs: 0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,329,0,0"/>
+        <Label Name="Outputs" Content="Outputs: 0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,355,0,0"/>
+        <Label Name="Interface" Content="If module: 0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,381,0,0" RenderTransformOrigin="-3.904,11.904"/>
+    </Grid>
+</Window>
